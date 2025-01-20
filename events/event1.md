@@ -27,7 +27,6 @@ For non-coder's 11ty has starter site and a way to import blogs from WordPress, 
 
  Coming from WordPress the big change is working in code editor using a terminal and understanding Git. 
  
- 
 
 ## Things we may forget to cover
 
