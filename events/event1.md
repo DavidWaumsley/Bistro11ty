@@ -27,9 +27,6 @@ For non-coder's 11ty has starter site and a way to import blogs from WordPress, 
 
  Coming from WordPress the big change is working in code editor using a terminal and understanding Git. 
  
- Having done that (particularly at a time a great change to HTML and CSS) I would not do custom dev work in WordPress Page builder again. I want full control of the CSS without routing it via modern Wordpress's version of React.
-
- I have not ruled out WordPress as a CMS in some form of headless set up.
  
 
 ## Things we may forget to cover
