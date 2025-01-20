@@ -45,7 +45,7 @@ For non-coder's 11ty has starter site and a way to import blogs from WordPress, 
 
 Eventy Excellent, like us uses CUBE CSS (in this case it broken down in to small components). It allows tags and uses Paul Irish's Lite YouTube Embed and has a light and dark switcher.
 
- Although she (Lene Saile) is years ahead of me she follows the same people resulting in great attention to accessibility. There are cool additions like automated open graph [images for posts](https://metatags.io/?url=https%3A%2F%2F11tyexcellent.netlify.app%2Fblog%2Fmy-shiny-new-post%2F). That said, if used on a site with constant updates this could be removed as it increases the build time.
+ Although she (Lene Saile) is years ahead she follows the same people resulting in great attention to accessibility. There are cool additions like automated open graph [images for posts](https://metatags.io/?url=https%3A%2F%2F11tyexcellent.netlify.app%2Fblog%2Fmy-shiny-new-post%2F). That said, if used on a site with constant updates this could be removed as it increases the build time.
 
 ## Learning Resources 
 
