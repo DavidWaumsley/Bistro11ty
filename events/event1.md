@@ -3,7 +3,6 @@ layout: base.njk
 main_class: page-layout flow
 tags: event
 author: Nathan Wrigley
-date: 2024-01-18T09:48:38.842Z
 title: What is nice about 11ty.
 eventdate: 1st June 2024
 excerpt: The date is manually added. This is ordering according to date created.
@@ -20,12 +19,12 @@ For non-coder's 11ty has starter site and a way to import blogs from WordPress, 
 
 ## David's Experience
 
- - It's feels like you are working with HTML.
+ - It's feels like working with HTML.
  - If only altering globals (like headers) it's more of a tool than a dependency .
  - Breaking HTML and CSS into smaller components makes work easier.
- - It feel simple, but not restrictive if a project need to grow.
+ - It's fairly simple, but not restrictive if a project need to grow.
 
- Coming from WordPress the big change is working in code editor using a terminal and understanding Git. 
+ Coming from WordPress the main change is working in code editor using a terminal and understanding Git. Publishing is not as instant as WordPress. 
  
 
 ## Things we may forget to cover
@@ -36,7 +35,7 @@ For non-coder's 11ty has starter site and a way to import blogs from WordPress, 
 - It's easy optimize, resize and change the format of images.
 - It's easy to use [Decap](https://decapcms.org/)'s free CMS to allow non coders to create posts.
 - The [Front Matter CMS](https://frontmatter.codes/) can help manage front matter locally.
-
+- We could have added pagination and RSS feeds, but too indepth for this video.
 
 ## Extra considerations
 
@@ -53,7 +52,7 @@ Eventy Excellent, like us uses CUBE CSS (in this case it broken down in to small
 - [11ty YouTube](https://www.youtube.com/@EleventyVideo/videos).
 - [11ty Bundle](https://11tybundle.dev/). A fabulous place for all the latest by Bob Monsour.
 
-These are years out of date, but with the help of 11ty docs and Claude AI I could covert to V3 of 11ty:
+These are years out of date, but with the help of 11ty docs and Claude AI I could covert to  11ty V3:
 
 - [Learn Eleventy From Scratch](https://learneleventyfromscratch.com/). Andy Bell.
 
@@ -61,7 +60,8 @@ These are years out of date, but with the help of 11ty docs and Claude AI I coul
 
 ## Tip
 
- VSCode supports Emmet autocompletes, but you need to set it for it to work in .njk files.
+ - VSCode supports Emmet autocompletes, but you need to set it for it to work in .njk files.
+ - You have to watch what is in you _site folder. What you delete in you root is not removed.
 
 
 
