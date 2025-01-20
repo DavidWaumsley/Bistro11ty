@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{title}}</title>
+
+    <link
+      rel="preload"
+      href="/fonts/DMSerifDisplay-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />  
+
+    <!--  https://schema.org/Organization -->
+      <link rel="stylesheet" href="/bundle.css" />
+
+    <!--SEO START -->
+  <link rel="canonical"href="https://bistro11.here24.co{{ page.url }}" />  
+    <meta
+      name="description"
+      content="{{description}}"
+    />
+    <!-- Facebook image -->
+    <meta property="og:image" content="/_public/images/og-image.webp" />
+    <!-- Twitter image -->
+    <meta property="twitter:image" content="/_public/images/og-image.webp" />
+    <!--SEO END -->
+
+    <link rel="icon" type="image/x-icon" href="/_public/images/favicon.ico" />
+    <link rel="icon" type="image/svg" href="/_public/svgs/favicon.svg" />
+  </head>
+  <body class="{{body_class}}" id="top">
+    <a href="#skip-to-main" class="skip-link">Skip to content</a>
+
+    <!--TOP BAR -->
+    {% include "partials/topbar.html" %} 
+    <!--HEADER-->
+    <header>
+      <a class="[ logo ]" href="/"
+        ><img
+          src="/_public/images/logo.png"
+          alt="Nathan's Bistro logo."
+          width="600"
+          height="260"
+      /></a>
+
+      <nav>
+        <ul>
+   {% for item in navigation.items %}
+  <li>
+    <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
+  </li>
+  {% endfor %}
+  <li><a class="btn" href="/#menu">Menus</a></li>
+</ul>
+      </nav>
+    </header>
+
+    <!--MAIN-->
+
+    <main class="{{main_class}}" id="skip-to-main">
+
+        {{ content | safe }}
+
+  
+    </main>
+   {% include "partials/footer.html" %}  
+       
+    <script src="/_public/js/light-dark.js"></script>
+  </body>
+</html>

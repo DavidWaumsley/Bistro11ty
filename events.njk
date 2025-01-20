@@ -1,0 +1,26 @@
+---
+layout: base.njk
+title: My Events Page
+description: Hello this is the events page.
+body_class: event 
+main_class: flow
+---
+
+<h1>Events</h1>
+
+<ul class="[ event-grid popout ]">
+
+  {%- for event in collections.event | reverse -%}
+
+  <li>  
+     <h2><a href="{{ event.url }}">{{ event.data.title }}</a></h2>
+    <p><em>{{event.data.eventdate}}</em></p>  
+    <p>{{event.data.excerpt}} <a href="{{ event.url }}"><br>Read More &roarr;</a></p>     
+ 
+</li>
+
+  {%- endfor %} 
+ 
+</ul>
+
+

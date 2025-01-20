@@ -1,0 +1,239 @@
+---
+layout: base.njk
+title: Nathan's Bistro Homepage
+description: Don't go here. This is a demo site .
+body_class: home
+main_class: flow
+---
+
+    <section class="[ hero ]">
+      <h1 class="[ hero-heading ]">
+        An oasis in Scarborough for <span>coffee</span> and
+        <span>food lovers</span>
+      </h1>
+
+      <!-- Picture tag -->
+      <picture class="hero-img">
+        <source
+        media="(width <= 50rem)"
+        srcset="/_public/images/bistro-collage-m-sml.webp"
+        width="695"
+        height="734"
+      />
+        <source
+          media="(width <= 68rem)"
+          srcset="/_public/images/collage-m.webp"
+          width="1000"
+          height="180"
+        />
+        <source
+          media="(width > 68rem)"
+          srcset="/_public/images/bistro-collage.webp"
+          width="687"
+          height="734"
+        />       
+        <img
+          src="/_public/images/collage-m.webp"
+          width="1000"
+          height="180"
+          alt="A collage showing the interior and exterior of the bistro along with images of food and drinks."
+          loading="eager"
+        />
+      </picture>
+
+      <div class="[ hero-blurb ] [ flow ]">
+        <p>
+          Our coffee shop and bistro does not exist. It is a demo for the
+          <a href="https://www.youtube.com/@NoScriptShow/videos"
+            >No Script Show</a
+          >. You are welcome to join us there.
+        </p>
+        <p>
+          It's suitable for those who want a friendly, relaxing space for a
+          coffee or smoothie. Many like to visit us for our dining experience.
+        </p>
+        <ul>
+          <li>Menu freshly prepared daily.</li>
+          <li>Inside and outside seating.</li>
+          <li><a href="">Catering for group and special events.</a></li>
+          <li><a href="">Takeaway service.</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="[ flow ]">
+      <h2 class="sidelines">Menu</h2>
+
+      <div class="[ menu-option-grid ]" id="menu">
+        <div class="menu-option-item">
+          <a href="/breakfast"
+            ><img
+              src="_public/images/breakfast-menu.webp"
+              width="550"
+              height="550"
+              loading="lazy"
+              alt="a plate of eggs and bacon surround by muesli, berries and other breakfast items "
+            />
+          </a>
+          <h3>Breakfast and Brunch</h3>
+        </div>
+        <div class="menu-option-item">
+          <a href="/breakfast"
+            ><img
+              src="_public/images/lunch-menu.webp"
+              width="550"
+              height="550"
+              loading="lazy"
+              alt="A range of plated lunch dishes"
+          /></a>
+
+          <h3>Lunch and Specials</h3>
+        </div>
+        <div class="menu-option-item">
+          <a href="/breakfast"
+            ><img
+              src="_public/images/drinks-menu.webp"
+              width="550"
+              height="550"
+              loading="lazy"
+              alt=" a cup of frothy coffee"
+          /></a>
+          <h3>Drinks and Smoothies</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="[ special-section ]">
+      <h2 class="[ special-heading ][ sidelines ]">Specials</h2>
+
+      <div class="[ group-events ]">
+        <div class="[ events-inner-wrapper ] ">
+          <div class="[ flow ]">
+            <h3>Groups and Events</h3>
+            <p>
+              We regularly host staff team get-togethers and special family
+              events.
+            </p>
+            <p>
+              We have a good range of vegetarian and vegan options. If you
+              have other dietary requirements just let us know. I'm sure our
+              chef can help.
+            </p>
+            <br>
+            <a class="btn2" href="">Book now</a>
+          </div>
+
+          <!-- Picture tag -->
+          <picture>
+            <source
+              media="(width <= 68rem)"
+              srcset="_public/images/group-dining-m.webp"
+              width="600"
+              height="250"
+            />
+            <source
+              media="(width > 68rem)"
+              srcset="_public/images/group-dining.webp"
+              width="400"
+              height="500"
+            />
+            <img
+              src="_public/images/group-dining.webp"
+              width="400"
+              height="500"
+              alt="people around a table enjoying a meal."
+              loading="lazy"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="[ special-offers ][ center-me ]">
+        <h3>10% off your bill</h3>
+        <p class="[ pretty ]">Monday and Tuesdays before 11 am. <br> <strong>Discount code: </strong>"Nathan
+          has an awful lot of hats".</p>  
+        <img
+          src="_public/images/discount.webp"
+          width="400"
+          height="250"
+          loading="lazy"
+          alt=" A bowl of muesli with fresh berries"
+        />
+      </div>
+    </section>
+
+    <section>
+      <h2 class="[ sidelines ]">Reviews</h2>
+
+      <div class="[ review-wrapper ]">
+        <blockquote id="slide-1">
+          <h3>Great coffee</h3>
+          <p>
+            "My American was smooth. Usually, it's so hard to find one which
+            you can enjoy just black. They have a really good atmosphere and
+            the place is spotless. Really nice bisto and cafe on the main
+            road."
+          </p>
+          <span class="star-rating">
+            &#9733; &#9733; &#9733; &#9733; &#9733;
+          </span>
+        </blockquote>
+
+        <blockquote id="slide-2">
+          <h3>I'm coming back</h3>
+          <p>
+            "I found a hair in my scramble egg. Short and curly. No extra
+            charge! My smoothie was lumpy. I'll be back."
+          </p>
+
+          <span class="star-rating">
+            &#9733; &#9733; &#9733; &#9733; &#9733;
+          </span>
+        </blockquote>
+
+        <blockquote id="slide-3">
+          <h3>Best place for brunch</h3>
+          <p>
+            "My favourite place for brunch in Scarborough. Staff are always
+            friendly and welcoming (except the owner who is a grumpy old
+            bugger)."
+          </p>
+
+          <span class="[ star-rating ]">
+            &#9733; &#9733; &#9733; &#9733; &#9733;
+          </span>
+        </blockquote>
+        <blockquote id="slide-4">
+          <h3>Great for team events</h3>
+          <p>
+            "We use this place lunch when we have our quarterly staff meetings.
+            The menu is always changing and interesting so we keep coming back
+            for more. Recommended."
+          </p>
+
+          <span class="star-rating">
+            &#9733; &#9733; &#9733; &#9733; &#9733;
+          </span>
+        </blockquote>
+        <blockquote id="slide-5">
+          <h3>I think I drank too much</h3>
+          <p>
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+            consectetur, repudiandae libero aliquam nesciunt delectus laborum
+            ratione."
+          </p>
+          <span class="[ star-rating ]">
+            &#9733; &#9733; &#9733; &#9733; &#9733;
+          </span>
+        </blockquote>
+      </div>
+
+      <div class="pagnation">
+        <ul>
+          <li><a href="#slide-1"> 1 </a></li>
+          <li><a href="#slide-2"> 2 </a></li>
+          <li><a href="#slide-3"> 3 </a></li>
+          <li><a href="#slide-4"> 4 </a></li>
+          <li><a href="#slide-5"> 5 </a></li>
+        </ul>
+      </div>
+    </section>
