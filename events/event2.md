@@ -12,7 +12,7 @@ permalink: "/{{ title | slugify }}/"
 
 # Multi-faith seasonal dinner
 
-It's *cool* isn't it?
+It's *cool* isn't it? No, it is not!
 
 Animumque negare crepuitque ministri pietatis. Cumque ortos canes et hunc
 polluit suadeat vultu Interea! Divae pariter rupe amplexus renasci erat, monstra
