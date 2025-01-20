@@ -38,6 +38,7 @@ For non-coder's 11ty has starter site and a way to import blogs from WordPress, 
 - It's easy to use [Decap](https://decapcms.org/)'s free CMS to allow non coders to create posts.
 - The [Front Matter CMS](https://frontmatter.codes/) can help manage front matter locally.
 - We could have added pagination and RSS feeds, but too indepth for this video.
+- Making the "Event" slugs [match the titles.](https://www.11ty.dev/docs/filters/slugify/) 
 
 ## Extra considerations
 
