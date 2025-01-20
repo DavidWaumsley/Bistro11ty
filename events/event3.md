@@ -8,7 +8,7 @@ excerpt: Join us for naff music and some bitching and moaning.
 description: This is my description.
 date: 2025-01-18T05:26:37.552Z
 draft: true
-fmContentType: default
+permalink: "/{{ title | slugify }}/"
 ---
 
 <h1 class=" popout sidelines" > Nathan's cheese & wine do</h1>

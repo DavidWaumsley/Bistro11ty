@@ -5,8 +5,10 @@ tags: event
 author: Nathan Wrigley
 title: What is nice about 11ty.
 eventdate: 1st June 2024
+date: 2025-01-12T05:26:37.552Z
 excerpt: The date is manually added. This is ordering according to date created.
 description: This is my SEO metadata.
+permalink: "/{{ title | slugify }}/"
 ---
 
 <h1 class=" popout sidelines" >What's nice about 11ty</h1>

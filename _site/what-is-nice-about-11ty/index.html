@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Events Page</title>
+    <title>What is nice about 11ty.</title>
 
     <link
       rel="preload"
@@ -17,10 +17,10 @@
       <link rel="stylesheet" href="/bundle.css" />
 
     <!--SEO START -->
-  <link rel="canonical"href="https://bistro11ty.here24.co/events/" />  
+  <link rel="canonical"href="https://bistro11ty.here24.co/what-is-nice-about-11ty/" />  
     <meta
       name="description"
-      content="Hello this is the events page."
+      content="This is my SEO metadata."
     />
     <!-- Facebook image -->
     <meta property="og:image" content="/_public/images/og-image.webp" />
@@ -31,7 +31,7 @@
     <link rel="icon" type="image/x-icon" href="/_public/images/favicon.ico" />
     <link rel="icon" type="image/svg" href="/_public/svgs/favicon.svg" />
   </head>
-  <body class="event" id="top">
+  <body class="" id="top">
     <a href="#skip-to-main" class="skip-link">Skip to content</a>
 
     <!--TOP BAR -->
@@ -89,7 +89,7 @@
   </li>
   
   <li>
-    <a href="/events/" aria-current="page"data-state="active">Events</a>
+    <a href="/events/" >Events</a>
   </li>
   
   <li>
@@ -103,31 +103,56 @@
 
     <!--MAIN-->
 
-    <main class="flow" id="skip-to-main">
+    <main class="page-layout flow" id="skip-to-main">
 
-        
-<h1>Events</h1>
-
-<ul class="[ event-grid popout ]"><li>  
-     <h2><a href="/nathans-cheese-and-wine-do/">Nathan&#39;s cheese &amp; wine do.</a></h2>
-    <p><em>12th March 2025</em></p>  
-    <p>Join us for naff music and some bitching and moaning. <a href="/nathans-cheese-and-wine-do/"><br>Read More &roarr;</a></p>     
- 
-</li><li>  
-     <h2><a href="/multi-faith-seasonal-dinner/">Multi-faith seasonal dinner</a></h2>
-    <p><em>1st - 20th of December</em></p>  
-    <p>Traditional western fair with a multicultural twist. Vegans welcome. <a href="/multi-faith-seasonal-dinner/"><br>Read More &roarr;</a></p>     
- 
-</li><li>  
-     <h2><a href="/what-is-nice-about-11ty/">What is nice about 11ty.</a></h2>
-    <p><em>1st June 2024</em></p>  
-    <p>The date is manually added. This is ordering according to date created. <a href="/what-is-nice-about-11ty/"><br>Read More &roarr;</a></p>     
- 
-</li> 
- 
+        <h1 class=" popout sidelines" >What's nice about 11ty</h1>
+<p>For non-coder's 11ty has starter site and a way to import blogs from WordPress, but for those handcrafing HTM site it is a joyfull experience.</p>
+<img class=" popout" src="https://picsum.photos/id/1/1920/500" alt="">
+<h2>David's Experience</h2>
+<ul>
+<li>It's feels like working with HTML.</li>
+<li>If only altering globals (like headers) it's more of a tool than a dependency .</li>
+<li>Breaking HTML and CSS into smaller components makes work easier.</li>
+<li>It's fairly simple, but not restrictive if a project need to grow.</li>
 </ul>
-
-
+<p>Coming from WordPress the main change is working in code editor using a terminal and understanding Git. Publishing is not as instant as WordPress.</p>
+<h2>Things we may forget to cover</h2>
+<ul>
+<li>11ty support many additional languages such as Handlebars, Mustache, Pug, Typescript. It aso has it own called webc which are web components.</li>
+<li>We can mix HTML and Markdown. The title and image above are HTML allowing me to add CSS styles.</li>
+<li>It's easy to minify the CSS output.</li>
+<li>It's easy optimize, resize and change the format of images.</li>
+<li>It's easy to use <a href="https://decapcms.org/">Decap</a>'s free CMS to allow non coders to create posts.</li>
+<li>The <a href="https://frontmatter.codes/">Front Matter CMS</a> can help manage front matter locally.</li>
+<li>We could have added pagination and RSS feeds, but too indepth for this video.</li>
+</ul>
+<h2>Extra considerations</h2>
+<ul>
+<li><a href="https://github.com/11ty/eleventy-base-blog">11ty base blog</a> makes it easy adopt a simple headless WordPress set up.</li>
+<li><a href="https://11tybundle.dev/starters/">11ty starter sites</a> can be useful to devs. The <a href="https://eleventy-excellent.netlify.app/">Eventy Excellent</a> starter ticks all the boxes for what we may need for the No Script Show.</li>
+</ul>
+<p>Eventy Excellent, like us uses CUBE CSS (in this case it broken down in to small components). It allows tags and uses Paul Irish's Lite YouTube Embed and has a light and dark switcher.</p>
+<p>Although she (Lene Saile) is years ahead she follows the same people resulting in great attention to accessibility. There are cool additions like automated open graph <a href="https://metatags.io/?url=https%3A%2F%2F11tyexcellent.netlify.app%2Fblog%2Fmy-shiny-new-post%2F">images for posts</a>. That said, if used on a site with constant updates this could be removed as it increases the build time.</p>
+<h2>Learning Resources</h2>
+<ul>
+<li><a href="https://www.11ty.dev/docs/">11ty Docs</a></li>
+<li><a href="https://www.youtube.com/@EleventyVideo/videos">11ty YouTube</a>.</li>
+<li><a href="https://11tybundle.dev/">11ty Bundle</a>. A fabulous place for all the latest by Bob Monsour.</li>
+</ul>
+<p>These are years out of date, but with the help of 11ty docs and Claude AI I could covert to  11ty V3:</p>
+<ul>
+<li>
+<p><a href="https://learneleventyfromscratch.com/">Learn Eleventy From Scratch</a>. Andy Bell.</p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=4wD00RT6d-g">Turn static HTML/CSS into a blog with CMS using the JAMStack</a>. Kevin Powell.</p>
+</li>
+</ul>
+<h2>Tip</h2>
+<ul>
+<li>VSCode supports Emmet autocompletes, but you need to set it for it to work in .njk files.</li>
+<li>You have to watch what is in you _site folder. What you delete in you root is not removed.</li>
+</ul>
 
 
   

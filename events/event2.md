@@ -6,7 +6,8 @@ eventdate: 1st - 20th of December
 title: Multi-faith seasonal dinner
 excerpt: Traditional western fair with a multicultural twist. Vegans welcome.
 description: ""
-date: 2025-01-09T05:10:11.000Z
+date: 2025-01-13T05:10:11.000Z
+permalink: "/{{ title | slugify }}/"
 ---
 
 # Multi-faith seasonal dinner
