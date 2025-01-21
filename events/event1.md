@@ -27,7 +27,7 @@ permalink: "/{{ title | slugify }}/"
 - We could have added pagination and RSS feeds, but too indepth for this video.
 - Making the "Event" slugs [match the titles.](https://www.11ty.dev/docs/filters/slugify/) 
 
-## Tip
+## Tips
 
  - VSCode supports Emmet autocompletes, but you need to set it for it to work in .njk files.
  - You have to watch what is in you _site folder. What you delete in you root is not removed.
@@ -49,3 +49,14 @@ The main change is working fully in a code editor, using a terminal and understa
  - It's simple, but not restrictive.
 
  WordPress page buiders helped with low budget work when CSS was not great at helping with the demands of the responsive web, but I prefer this now.
+
+ ## Resources
+
+ - [11ty YouTube](https://www.youtube.com/@EleventyVideo/videos).
+- [11ty Bundle](https://11tybundle.dev/). A fabulous place for all the latest by Bob Monsour.
+
+These are years out of date, but with the help of 11ty docs and Claude AI I could covert to 11ty V3:
+
+- [Learn Eleventy From Scratch](https://learneleventyfromscratch.com/). Andy Bell.
+
+- [Turn static HTML/CSS into a blog with CMS using the JAMStack](https://www.youtube.com/watch?v=4wD00RT6d-g). Kevin Powell.
