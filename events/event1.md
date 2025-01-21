@@ -4,8 +4,8 @@ main_class: page-layout flow
 tags: event
 author: David Waumsley
 title: 11ty for devs.
-eventdate: 1st June 2024
-date: 2025-01-12T05:26:37.552Z
+eventdate: 22nd January 2024
+date: 2025-01-21T05:26:37.552Z
 excerpt: The date is manually added. This is ordering according to date created.
 description: This is my SEO metadata.
 permalink: "/{{ title | slugify }}/"
@@ -25,7 +25,10 @@ permalink: "/{{ title | slugify }}/"
 - It's easy to use [Decap](https://decapcms.org/)'s free CMS to allow non coders to create posts.
 - The [Front Matter CMS](https://frontmatter.codes/) can help manage front matter locally.
 - We could have added pagination and RSS feeds, but too indepth for this video.
+- We can set up draft posts.
 - Making the "Event" slugs [match the titles.](https://www.11ty.dev/docs/filters/slugify/) 
+
+There's no limits. Some do E-commerce with it. Some automate builds to pull in new data.
 
 ## Tips
 
