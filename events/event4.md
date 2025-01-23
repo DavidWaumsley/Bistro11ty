@@ -18,7 +18,7 @@ permalink: "/{{ title | slugify }}/"
 
 ## Stater Sites
 
-11tyhas something similar to WordPress themes called starter sites. They can reduce the dev work needed to get going. Some are able to get going with no or limited HTML or CSS skills.
+11ty has something similar to WordPress themes called starter sites. They can reduce the dev work needed to get going. Some are able to get going with no or limited HTML or CSS skills.
 
 **Here's some places to look:**
 
@@ -39,7 +39,7 @@ Eventy Excellent, like us, uses CUBE CSS (in this case it broken down in to smal
 - [Elva](https://github.com/scottsweb/elva).
 
 
-These all have been updated to 11ty v.3
+These all have been updated to 11ty v.3. That said, that can carry npm packages that are [deprecated]( https://www.npmjs.com/package/inflight)
 
 
 
