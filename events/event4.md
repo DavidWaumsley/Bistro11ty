@@ -22,7 +22,7 @@ permalink: "/{{ title | slugify }}/"
 
 **Here's some places to look:**
 
-- [11ty Bundle](https://11tybundle.dev/starters/). A fabulous place for all the latest by Bob Monsour.
+- [11ty Bundle](https://11tybundle.dev/starters/). A fabulous place for all the latest by [Bob Monsour](https://bobmonsour.com/).
 - [JamStack Themes](https://jamstackthemes.dev/#ssg=eleventy).
 - [The 11ty site](https://www.11ty.dev/docs/starter/).
 
@@ -48,9 +48,14 @@ These all have been updated to 11ty v.3. That said, that can carry npm packages 
 - 11ty has an importer that can grap WordPress Post (among other things)
 - It works best with the 11ty Base blog.
 
-## David's thoughs
+There some additional articles on bringing WordPress content into 11ty. Here's two that talk about WordPress plugins that tell WordPress to tell the host to rebuild 11ty.
 
-With a few exceptions 11ty starter themes are not going to appeal to the DIY builder like WordPress does. The WordPress to 11ty Base blogs might appeal more if there were CSS "skins" to easily swap out styles (ala CSS Zen Garden).
+- [Using Wordpress as a headless CMS for Eleventy by Mike Aparicio](https://www.mikeaparicio.com/posts/2023-11-07-using-wordpress-as-a-headless-cms-for-eleventy/)
+- [How to use 11ty with Headless WordPress and deploy to Netlify by Dave Davies](https://davedavies.dev/post/how-to-use-11ty-with-headless-wordpress/)
+
+The two WordPress plugins have not been updated in 4 years.
+
+
 
 
 
