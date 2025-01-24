@@ -40,7 +40,7 @@ There few [exceptions](https://github.com/CloudCannon/campus-spark-bookshop-temp
 - [Elva](https://github.com/scottsweb/elva).
 
 
-These all have been updated to 11ty v.3. That said, that can carry npm packages that are [deprecated]( https://www.npmjs.com/package/inflight)
+These all have been updated to 11ty v.3. That said, that can carry npm packages that are [deprecated]( https://www.npmjs.com/package/inflight).
 
 Eventy Excellent, like us, uses CUBE CSS. It allows tags, uses Paul Irish's Lite YouTube Embed and has a light and dark switcher.
 
@@ -48,7 +48,7 @@ Eventy Excellent, like us, uses CUBE CSS. It allows tags, uses Paul Irish's Lite
 
 - 11ty has an [importer](https://www.11ty.dev/docs/migrate/wordpress/#use-@11ty/import) that can grap WordPress posts. 
 - This hooks in to the WordPress REST API.
-- It works out of the box with the 11ty Base blog.
+- It works out of the box with the 11ty base blog.
 
 Andy Bell has a couple of articles: one on [hooking 11ty to WordPress](https://bell.bz/i-hooked-up-eleventy-to-wordpress-api/) and another on [importing 11ty content to WordPress](https://bell.bz/importing-eleventy-content-into-wordpress/).
 
