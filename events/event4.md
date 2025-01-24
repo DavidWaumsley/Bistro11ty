@@ -26,7 +26,7 @@ permalink: "/{{ title | slugify }}/"
 - [JamStack Themes](https://jamstackthemes.dev/#ssg=eleventy).
 - [The 11ty site](https://www.11ty.dev/docs/starter/).
 
-There few [exceptions](https://github.com/CloudCannon/campus-spark-bookshop-template), but generally starter sites are plain for us to add our own CSS. 
+There's a few [exceptions](https://github.com/CloudCannon/campus-spark-bookshop-template), but generally starter sites are plain for us to add our own CSS. 
 
  Some are created around Tailwind or Bootstrap or include javaSript framework intergration.
 
