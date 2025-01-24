@@ -59,6 +59,8 @@ There's other articles on bringing WordPress content into 11ty. Here's two that 
 
 The two WordPress plugins have not been updated in 4 years.
 
+We also have to consider the number concurrent builds our static hosting allow if letting clients update.
+
 
 
 
