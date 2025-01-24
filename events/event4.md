@@ -18,7 +18,7 @@ permalink: "/{{ title | slugify }}/"
 
 ## Stater Sites
 
-11ty has something similar to WordPress themes called starter sites. They can reduce the dev work needed to get going. Some are able to get going with no or limited HTML or CSS skills.
+11ty has something similar to WordPress themes called starter sites. They can reduce the dev work needed to get going. Some are able to start with no CSS skills.
 
 **Here's some places to look:**
 
@@ -26,9 +26,10 @@ permalink: "/{{ title | slugify }}/"
 - [JamStack Themes](https://jamstackthemes.dev/#ssg=eleventy).
 - [The 11ty site](https://www.11ty.dev/docs/starter/).
 
-There few [exceptions](https://github.com/CloudCannon/campus-spark-bookshop-template), but generally the starter are plain for you to add your own CSS.  Some are created around Tailwind or Bootstrap or include javaSript framework intergration.
+There few [exceptions](https://github.com/CloudCannon/campus-spark-bookshop-template), but generally starter sites are plain for us to add our own CSS. 
 
-Eventy Excellent, like us, uses CUBE CSS (in this case it broken down in to small components). It allows tags and uses Paul Irish's Lite YouTube Embed and has a light and dark switcher.
+ Some are created around Tailwind or Bootstrap or include javaSript framework intergration.
+
 
 **These could be useful for the shows website:**
 
@@ -41,7 +42,7 @@ Eventy Excellent, like us, uses CUBE CSS (in this case it broken down in to smal
 
 These all have been updated to 11ty v.3. That said, that can carry npm packages that are [deprecated]( https://www.npmjs.com/package/inflight)
 
-
+Eventy Excellent, like us, uses CUBE CSS. It allows tags, uses Paul Irish's Lite YouTube Embed and has a light and dark switcher.
 
 ## 11ty as a static frontend for WordPress.
 
