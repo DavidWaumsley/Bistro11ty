@@ -4,7 +4,7 @@ main_class: page-layout flow
 tags: event
 author: David Waumsley
 title: 11ty for devs.
-eventdate: 22nd January 2024
+eventdate: 22nd January 2025
 date: 2025-01-21T05:26:37.552Z
 excerpt: The date is manually added. This is ordering according to date created.
 description: This is my SEO metadata.

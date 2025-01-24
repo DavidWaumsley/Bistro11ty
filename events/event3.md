@@ -2,7 +2,7 @@
 layout: base.njk
 main_class: page-layout flow
 tags: event
-eventdate: 12th March 2025
+eventdate: 12th March 2024
 title: Nathan's cheese & wine do.
 excerpt: Join us for naff music and some bitching and moaning.
 description: This is my description.
