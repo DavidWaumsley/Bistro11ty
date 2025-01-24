@@ -42,7 +42,7 @@ There's a few [exceptions](https://github.com/CloudCannon/campus-spark-bookshop-
 
 These all have been updated to 11ty v.3. That said, that can carry npm packages that are [deprecated]( https://www.npmjs.com/package/inflight).
 
-Eventy Excellent, like us, uses CUBE CSS. It allows tags, uses Paul Irish's Lite YouTube Embed and has a light and dark switcher.
+Eventy Excellent, like us, uses CUBE CSS. It allows tags, uses Paul Irish's Lite YouTube Embed and has a light and dark switcher. It also includes [webC](https://www.11ty.dev/docs/languages/webc/) 11ty's own web components. 
 
 ## 11ty as a static frontend for WordPress.
 
@@ -59,7 +59,7 @@ There's other articles on bringing WordPress content into 11ty. Here's two that 
 
 The two WordPress plugins have not been updated in 4 years.
 
-We also have to consider the number concurrent builds our static hosting allow if letting clients update.
+We also have to consider the number concurrent builds our static hosting plan allow if letting clients update. Netlify only allows one on the free plan.
 
 
 
