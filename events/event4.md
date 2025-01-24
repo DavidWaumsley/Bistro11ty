@@ -46,10 +46,13 @@ Eventy Excellent, like us, uses CUBE CSS. It allows tags, uses Paul Irish's Lite
 
 ## 11ty as a static frontend for WordPress.
 
-- 11ty has an importer that can grap WordPress Post (among other things)
-- It works best with the 11ty Base blog.
+- 11ty has an [importer](https://www.11ty.dev/docs/migrate/wordpress/#use-@11ty/import) that can grap WordPress posts. 
+- This hooks in to the WordPress REST API.
+- It works out of the box with the 11ty Base blog.
 
-There some additional articles on bringing WordPress content into 11ty. Here's two that talk about WordPress plugins that tell WordPress to tell the host to rebuild 11ty.
+Andy Bell has a couple of articles: one on [hooking 11ty to WordPress](https://bell.bz/i-hooked-up-eleventy-to-wordpress-api/) and another on [importing 11ty content to WordPress](https://bell.bz/importing-eleventy-content-into-wordpress/).
+
+There's other articles on bringing WordPress content into 11ty. Here's two that talk about WordPress plugins that tell WordPress to tell the host to rebuild 11ty.
 
 - [Using Wordpress as a headless CMS for Eleventy by Mike Aparicio](https://www.mikeaparicio.com/posts/2023-11-07-using-wordpress-as-a-headless-cms-for-eleventy/)
 - [How to use 11ty with Headless WordPress and deploy to Netlify by Dave Davies](https://davedavies.dev/post/how-to-use-11ty-with-headless-wordpress/)
