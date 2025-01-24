@@ -16,7 +16,7 @@ permalink: "/{{ title | slugify }}/"
 <img class=" popout" src="https://picsum.photos/id/1/1920/500" alt="">
  
 
-## Stater Sites
+## Starter Sites
 
 11ty has something similar to WordPress themes called starter sites. They can reduce the dev work needed to get going. Some are able to start with no CSS skills.
 
