@@ -35,7 +35,7 @@ There few [exceptions](https://github.com/CloudCannon/campus-spark-bookshop-temp
 
 - [The 11ty Base blog ](https://github.com/11ty/eleventy-base-blog).
 
-- [Eleventy Excellent ](https://github.com/11ty/eleventy-base-blog).
+- [Eleventy Excellent ](https://github.com/madrilene/eleventy-excellent).
 
 - [Elva](https://github.com/scottsweb/elva).
 
